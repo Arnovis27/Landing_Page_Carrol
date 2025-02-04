@@ -65,7 +65,7 @@ h1 {
 .servicios{
     background-color: red;
     width: 100%;
-    height: 55rem;
+    height: 50rem;
     padding-top: 5%;
 }
 
@@ -88,9 +88,37 @@ h4{
     text-align: center;
 }
 
-.articulos{
+/* Contenedor de artículos */
+.articulos {
     background-color: blue;
-    margin-left: 10%;
+    margin: 0 auto;
     width: 80%;
-    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas en pantallas grandes */
+    gap: 20px; /* Espacio entre los artículos */
+}
+
+/* Cada artículo */
+.articulos > div {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Ajustar texto dentro del artículo */
+.articulos div div {
+    max-width: 60%; /* Limita el ancho del texto */
+}
+
+/* Imágenes */
+.ar-img {
+    width: 170px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 15px; /* Espacio entre imagen y texto */
+}
+
+h5{
+    font-size: 25px;
 }
