@@ -125,3 +125,58 @@ h5{
 p{
     color: white;
 }
+
+/* FORMULARIO */
+.wrap-form {
+    width: 100%;
+    padding: 5% 0; /* Espaciado arriba y abajo */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-section {
+    width: 90%; /* Reduce el ancho para que no choque con los bordes */
+    max-width: 1200px; /* Máximo ancho para evitar que se expanda demasiado en pantallas grandes */
+    background-color: black;
+}
+
+/* Encabezado centrado */
+.encabezado2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de Mapa + Formulario */
+.cuadro-sep {
+    display: flex;
+    flex-wrap: wrap; /* Permite que se ajusten si la pantalla es pequeña */
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Estilos para el mapa */
+.mapa {
+    width: 48%; /* Se ajusta para que no choque con el formulario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geo {
+    width: 100%;
+    max-width: 500px; /* Controla el tamaño del mapa */
+}
+
+/* Estilos para el formulario */
+.formulario-contenedor {
+    background-color: yellowgreen;
+    width: 48%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
